@@ -2,7 +2,7 @@
 
 def configMap = [
     project : "roboshop",
-    component: "user"
+    component: "payment"
 ]
 
 if( ! env.BRANCH_NAME.equalsIgnoreCase('main') ){ // if not equals to main
